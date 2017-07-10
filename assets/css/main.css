@@ -139,7 +139,6 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #2ebaae;
 		}
 
 	strong, b {
@@ -182,7 +181,7 @@
 	h1 {
 		font-size: 3.5rem;
 		line-height: 1.3;
-		letter-spacing: 1px;
+		letter-spacing: 0.5rem;
 	}
 
 	h2 {
@@ -960,8 +959,8 @@
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 1.5rem;
-		font-weight: 400;
+		font-size: 0.8rem;
+		font-weight: 300;
 		height: 2.75rem;
 		letter-spacing: 0.2rem;
 		line-height: 2.75rem;
@@ -978,8 +977,6 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 1px #2ebaae;
-			color: #2ebaae !important;
 			background-color: rgba(255, 255, 255, 0.075);
 		}
 
@@ -1015,8 +1012,8 @@
 		button.special,
 		.button.special {
 			background-color: #ffffff;
-			font-weight: 300;
-
+			color: #1b1f22 !important;
+			font-weight: 600;
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -1306,12 +1303,10 @@
 
 					#header nav ul li a:hover {
 						background-color: rgba(255, 255, 255, 0.075);
-						color: #2ebaae !important;
 					}
 
 					#header nav ul li a:active {
 						background-color: rgba(255, 255, 255, 0.175);
-						color: #2ebaae !important;
 					}
 
 		#header nav.use-middle:after {
@@ -1531,7 +1526,6 @@
 
 				#main article .close:hover:before {
 					background-color: rgba(255, 255, 255, 0.075);
-					color: #2ebaae !important;
 				}
 
 				#main article .close:active:before {
