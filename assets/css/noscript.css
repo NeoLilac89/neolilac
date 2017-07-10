@@ -1,21 +1,12 @@
 /*
-	Identity by Pixelarity
+	Dimension by Pixelarity
 	pixelarity.com | hello@pixelarity.com
 	License: pixelarity.com/license
 */
 
-/* Basic */
-
-	body:after {
-		display: none;
-	}
-
 /* Main */
 
-	#main {
-		-moz-transform: none !important;
-		-webkit-transform: none !important;
-		-ms-transform: none !important;
-		transform: none !important;
-		opacity: 1 !important;
+	#main article {
+		opacity: 1;
+		margin: 4rem 0 0 0;
 	}

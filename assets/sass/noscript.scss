@@ -4,22 +4,16 @@
 @import 'libs/skel';
 
 /*
-	Identity by Pixelarity
+	Dimension by Pixelarity
 	pixelarity.com | hello@pixelarity.com
 	License: pixelarity.com/license
 */
 
-/* Basic */
-
-	body {
-		&:after {
-			display: none;
-		}
-	}
-
 /* Main */
 
 	#main {
-		@include vendor('transform', 'none !important');
-		opacity: 1 !important;
+		article {
+			opacity: 1;
+			margin: (_size(element-margin) * 2) 0 0 0;
+		}
 	}
