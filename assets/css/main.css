@@ -1075,7 +1075,7 @@
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image:;
+			background-image: linear-gradient(to top, rgba(133, 114, 117, 0.5), rgba(114, 113, 117, 0.5)), url("../../images/overlay.png");
 			background-size: auto, 256px 256px;
 			background-position: center, center;
 			background-repeat: no-repeat, repeat;
