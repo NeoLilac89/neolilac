@@ -4,25 +4,32 @@
 @import 'libs/skel';
 
 /*
-	Indivisible by Pixelarity
+	Aerial by Pixelarity
 	pixelarity.com | hello@pixelarity.com
 	License: pixelarity.com/license
 */
 
-/* Button */
+/* Header */
 
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
-	button,
-	.button {
-		border: solid 1px _palette(border) !important;
+	#header {
+		nav {
+			a {
+				position: relative;
+				border: solid 1px _palette(fg);
+				border-radius: 100%;
+				-ms-behavior: url('assets/js/ie/PIE.htc');
 
-		&.back {
-			padding-left: 2em;
+				&:before {
+					border: 0;
+				}
+			}
 		}
+	}
 
-		&.special {
-			border: 0 !important;
-		}
+/* Footer */
+
+	#footer {
+		background-image: url('images/ie/footer.png');
+		background-position: bottom left;
+		background-repeat: repeat-x;
 	}

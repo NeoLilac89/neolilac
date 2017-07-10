@@ -4,40 +4,37 @@
 @import 'libs/skel';
 
 /*
-	Indivisible by Pixelarity
+	Aerial by Pixelarity
 	pixelarity.com | hello@pixelarity.com
 	License: pixelarity.com/license
 */
 
-/* Panel */
+/* Wrapper */
 
-	.panel {
-		margin: 0 auto;
+	#wrapper {
+		opacity: 1;
+	}
 
-		> .image {
-			float: left;
-		}
+/* Overlay */
 
-		> .content {
-			float: left;
-		}
+	#overlay {
+		opacity: 1;
+	}
 
-		&:after {
-			content: '';
-			display: block;
-			clear: both;
-		}
+/* Header */
 
-		&.secondary {
-			> .content {
-				&:after {
-					display: none;
-				}
+	#header {
+		opacity: 1;
+
+		nav {
+			li {
+				opacity: 1;
 			}
 		}
 	}
 
-/* Wrapper */
+/* Footer */
 
-	#wrapper {
+	#footer {
+		background-image: url('images/ie/footer.svg');
 	}
